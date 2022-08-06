@@ -18,12 +18,94 @@
     background-color: rgb(138, 186, 221);
 } 
 
+@media screen and (max-width:730px) {
+    .header {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .header {
+        height: 63px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .header {
+        height: 59px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .header {
+        height: 55px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .header {
+        height: 52px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .header {
+        height: 50px;
+    }
+}
+
 .header .headline {
     text-align: center;
     font-family: 'Gothic';
     padding-top: 20px;
-
 }
+
+@media screen and (max-width:730px) {
+    .header .headline {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .header .headline {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .header .headline {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .header .headline {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .header .headline {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .header .headline {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:252px) {
+    .header .headline {
+        font-size: 8px;
+        padding-top: 15px;
+    }
+}
+
+
+
+
 
 .menu {
     width: 250px;
@@ -32,12 +114,113 @@
     float: left;
 }
 
+@media screen and (max-width:1032px) {
+    .menu {
+        height: 760px;
+    }
+}
+
+@media screen and (max-width:887px) {
+    .menu {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .menu {
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .menu {
+        width: 100%;
+        height: 270px;
+        float: none;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .menu {
+        width: 100%;
+        height: 230px;
+        float: none;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .menu {
+        width: 100%;
+        height: 210px;
+        float: none;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .menu {
+        width: 100%;
+        height: 180px;
+        float: none;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .menu {
+        width: 100%;
+        height: 160px;
+        float: none;
+    }
+}
+
 .menu .headline {
     font-weight: bold;
     text-align: left;
     font-family: 'Gothic';
     padding-top: 35px;
-    padding-left: 15px;
+    padding-left: 13px;
+}
+
+@media screen and (max-width:610px) {
+    .menu .headline {
+        font-size: 13px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .menu .headline {
+        font-size: 12px;
+        padding-top: 27px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .menu .headline {
+        font-size: 11px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .menu .headline {
+        font-size: 10px;
+        padding-top: 23px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .menu .headline {
+        font-size: 9px;
+        padding-top: 21px;
+    }
+}
+
+@media screen and (max-width:185px) {
+    .menu .headline {
+        padding-left: 10px;
+    }
 }
 
 .menu .list {
@@ -48,6 +231,45 @@
     padding-left: 30px;
 }
 
+@media screen and (max-width:610px) {
+    .menu .list {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .menu .list {
+        font-size: 9px;
+        padding-top: 18px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .menu .list {
+        font-size: 8px;
+        padding-top: 17px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .menu .list {
+        font-size: 7px;
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .menu .list {
+        font-size: 6px;
+        padding-left: 27px;
+    }
+}
+
+
+
+
+
 
 .article {
     width: 100%;
@@ -55,11 +277,137 @@
     background: url('../photo/football-background.png') repeat-y right;
 }
 
+@media screen and (max-width:1032px) {
+    .article {
+        height: 760px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .article {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .article {
+        height: 535px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .article {
+        height: 510px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .article {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .article {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .article {
+        height: 410px;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .article {
+        height: 460px;
+    }
+}
+
+@media screen and (max-width:228px) {
+    .article {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width:213px) {
+    .article {
+        height: 580px;
+    }
+}
+
+@media screen and (max-width:200px) {
+    .article {
+        height: 650px;
+    }
+}
+
+@media screen and (max-width:180px) {
+    .article {
+        height: 710px;
+    }
+}
+
+@media screen and (max-width:172px) {
+    .article {
+        height: 850px;
+    }
+}
+
 .article .headline {
     text-align: center;
     font-weight: bold;
     font-family: 'Gothic';
     padding-top: 40px;
+}
+
+@media screen and (max-width:810px) {
+    .article .headline {
+        font-size: 17px;
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width:705px) {
+    .article .headline {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .article .headline {
+        font-size: 14px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .article .headline {
+        font-size: 13px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .article .headline {
+        font-size: 11px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .article .headline {
+        font-size: 10px;
+        padding-top: 17px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .article .headline {
+        font-size: 9px;
+        padding-top: 15px;
+    }
 }
 
 .article .photo {
@@ -71,12 +419,100 @@
     float: left;
 }
 
+
+@media screen and (max-width:610px) {
+    .article .photo {
+        height: 180px;
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .article .photo {
+        height: 150px;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .article .photo {
+        height: 120px;
+        width: 200px;
+        margin-bottom: 9px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .article .photo {
+        height: 90px;
+        width: 160px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .article .photo {
+        height: 60px;
+        width: 100px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+}
+
 .article .text {
     font-family: 'Gothic';
     padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
 }
+
+@media screen and (max-width:810px) {
+    .article .text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:705px) {
+    .article .text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .article .text {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .article .text {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .article .text {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .article .text {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .article .text {
+        font-size: 7px;
+        padding-top: 15px;
+    }
+}
+
+
+
 
 
 .footer {
@@ -85,8 +521,88 @@
     background-color: rgb(138, 186, 221);
 } 
 
+@media screen and (max-width:730px) {
+    .footer {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .footer {
+        height: 63px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .footer {
+        height: 59px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .footer {
+        height: 55px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .footer {
+        height: 52px;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .footer {
+        height: 50px;
+    }
+}
+
 .footer .headline {
     text-align: center;
     font-family: 'Gothic';
     padding-top: 20px;
+}
+
+@media screen and (max-width:730px) {
+    .footer .headline {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .footer .headline {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .footer .headline {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .footer .headline {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    .footer .headline {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:315px) {
+    .footer .headline {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:252px) {
+    .footer .headline {
+        font-size: 8px;
+        padding-top: 15px;
+    }
 }
